@@ -1,0 +1,3 @@
+# Source temporary files.
+source/**/bin
+source/**/obj
