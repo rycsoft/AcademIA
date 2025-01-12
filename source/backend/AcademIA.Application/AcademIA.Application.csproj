@@ -1,8 +1,15 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
     <ProjectReference Include="..\AcademIA.Domain\AcademIA.Domain.csproj" />
     <ProjectReference Include="..\AcademIA.Infrastructure\AcademIA.Infrastructure.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="13.0.1" />
+    <PackageReference Include="FluentValidation" Version="11.11.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="9.0.0" />
+    <PackageReference Include="ScottBrady91.AspNetCore.Identity.Argon2PasswordHasher" Version="1.4.0" />
   </ItemGroup>
 
   <PropertyGroup>
